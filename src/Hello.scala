@@ -1,3 +1,6 @@
 object Hello extends App {
-  println("Hello, World!")
+
+  val calc = new ColorCalculator("ASUS")
+  println(calc.brand)
+  println(calc.color)
 }
